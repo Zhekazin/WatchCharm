@@ -1,8 +1,18 @@
 ul,
+ol,
 li {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+:root {
+  --font-family: "Gilroy", sans-serif;
+  --main: #0c0c0c;
+  --color: var(--accent);
+  --accent: #3350e9;
+  --background: #fbfbfb;
+  --cards: #f3f3f3;
 }
 
 *,
@@ -26,24 +36,15 @@ img {
   max-width: 100%;
   height: auto;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-ul,
-ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
 a {
   text-decoration: none;
 }
 
 /*--HEADER-----------------------------*/
+.header {
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+}
 
 .header-logo {
   font-family: var(--font-family);
@@ -51,18 +52,17 @@ a {
   font-size: 20px;
   letter-spacing: -0.02em;
   color: var(--main);
-  margin-left: 65px;
-  margin-right: 203px;
-  margin-top: 12px;
-  margin-bottom: 12px;
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
+  min-width: 1200px;
+  margin: 0 auto;
   flex-direction: row;
-  gap: 203px;
+  padding: 32px 65px;
+  margin-bottom: 80px;
 }
 
 .navigation {
@@ -77,16 +77,12 @@ a {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 14px;
-  /* line-height: 18px; */
   line-height: 1.29;
   text-align: center;
   color: var(--main);
 }
 
-.navigation-item {
-}
-
-.sicial-links {
+.social-links {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -96,13 +92,57 @@ a {
 
 .social-link {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 8px;
+  align-items: center;
+  justify-content: center;
   border: 1px solid rgba(12, 12, 12, 0.1);
   border-radius: 10px;
   padding: 8px;
   width: 36px;
   height: 36px;
 }
+
+/*----------MAIN-----------------------*/
+.main-section {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 65px 80px;
+  max-width: 1150px;
+  flex-direction: start;
+}
+
+.main-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 72px;
+  margin-bottom: 20px;
+  line-height: 0.87;
+  letter-spacing: -0.02em;
+  color: var(--main);
+  max-width: 597px;
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.hero-photo {
+  border-radius: 50px;
+  max-width: 1150px;
+  height: auto;
+  object-fit: cover;
+  display: flex;
+}
+
+.text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  max-width: 480px;
+}
+
+/*--FOOTER-----------------------------*/

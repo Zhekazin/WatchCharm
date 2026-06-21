@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WatchCharm</title>
   </head>
@@ -32,50 +33,66 @@
           </li>
         </ul>
       </nav>
-      <ul class="sicial-links">
+      <ul class="social-links">
         <li class="social-link"><a href="#">fb</a></li>
         <li class="social-link"><a href="#">in</a></li>
         <li class="social-link"><a href="#">yt</a></li>
       </ul>
     </header>
-
-    <section>
-      <img src="./img/Ellipse21.png" alt="masha" width="60px" height="60px" />
-      <img src="./img/Ellipse22.png" alt="misha" width="60px" height="60px" />
-      <img src="./img/Ellipse23.png" alt="maria" width="60px" height="60px" />
-      <butt>Scroll down</butt>
-    </section>
+    <!--MAIN--------------------------------------------------------------------------->
     <main>
-      <section>
-        <h1>Welcome to our <span>collection</span> of premium watches</h1>
-        <p>
-          Our watches are not just timepieces, but also an expression of your
-          personality and lifestyle. From classic designs to modern ones, we
-          have a watch to suit every taste and occasion.
-        </p>
-        <img src="./img/Rectangle10.png" alt="black-watch" />
+      <section class="main-section">
+        <div>
+          <h1 class="main-title">
+            Welcome to our <span class="accent">collection</span> of premium
+            watches
+          </h1>
+          <p class="text">
+            Our watches are not just timepieces, but also an expression of your
+            personality and lifestyle. From classic designs to modern ones, we
+            have a watch to suit every taste and occasion.
+          </p>
+        </div>
+        <div>
+          <img src="./img/Ellipse21.png" alt="masha" width="60" height="60" />
+          <img src="./img/Ellipse22.png" alt="misha" width="60" height="60" />
+          <img src="./img/Ellipse23.png" alt="maria" width="60" height="60" />
+          <button type="button">Scroll down</button>
+        </div>
+        <img src="./img/Rectangle10.png" alt="black-watch" class="hero-photo" />
       </section>
       <!--About Us---------------------------------------------------------------->
       <section>
         <h2>About Us</h2>
-        <p>
-          Welcome to our premium watch collection, where luxury and style meet
-          functionality and precision. Our selection of timepieces embodies the
-          very best in Swiss craftsmanship and engineering, ensuring that you'll
-          always have a reliable and stylish accessory on your wrist.
-        </p>
-        <p>
-          At our premium watch collection, we believe that a watch is more than
-          just a timekeeping device – it's a statement piece that reflects your
-          personality and style. So why settle for anything less than the best?
-        </p>
-        <button>View catalog</button>
-        <img src="./img/catalog/w1.png" alt="watch" />
+        <div>
+          <p>
+            Welcome to our premium watch collection, where luxury and style meet
+            functionality and precision. Our selection of timepieces embodies
+            the very best in Swiss craftsmanship and engineering, ensuring that
+            you'll always have a reliable and stylish accessory on your wrist.
+          </p>
+          <p>
+            At our premium watch collection, we believe that a watch is more
+            than just a timekeeping device – it's a statement piece that
+            reflects your personality and style. So why settle for anything less
+            than the best?
+          </p>
+        </div>
+        <button type="button">View catalog</button>
+        <div>
+          <img src="./img/Rectangle11.png" alt="watch" />
+        </div>
       </section>
+
+      <!--Catalog--------------------------------------------------------------->
       <section>
-        <!--Catalog--------------------------------------------------------------->
         <h2>Catalog</h2>
         <ul>
+          <li>
+            <img src="./img/catalog/w1.png" alt="delta" />
+            <p>Garmin Fenix 7X Pro Sapphire Solar</p>
+            <p>€500</p>
+          </li>
           <li>
             <img src="./img/catalog/sale2.png" alt="Garmin Fenix " />
             <p>Garmin Fenix 7X Pro Sapphire Solar</p>
@@ -91,11 +108,7 @@
             <p>Garmin Descent MK1</p>
             <p>€680</p>
           </li>
-          <li>
-            <img src="./img/catalog/sale4.png" alt="delta" />
-            <p>Garmin D2 Delta PX</p>
-            <p>€380</p>
-          </li>
+
           <li>
             <img src="./img/catalog/sale5.png" alt="Garmin Fenix 6" />
             <p>Garmin Fenix 6 Pro Solar</p>
@@ -187,9 +200,9 @@
         </p>
         <form>
           <input type="text" placeholder="Name" />
-          <input type="text" placeholder="Email" />
-          <input type="text" placeholder="+380" />
-          <textarea name="Comment" id="">Comment</textarea>
+          <input type="email" placeholder="Email" />
+          <input type="tel" placeholder="+380" />
+          <textarea name="comment" id="comment">Comment</textarea>
         </form>
         <button>Send</button>
         <img src="./img/Rectangle11.png" alt="watsh" />
@@ -198,18 +211,10 @@
     <!--FOOTER------------------------------------------------------------------------------->
     <footer>
       <a href="./index.html">watchcharm</a>
-      <ul>
-        <li><a href="#">fb</a></li>
-
-        <li>
-          <a href="#" aria-label="Instagram">
-            <svg class="" width="16px" height="16px">
-              <use href=""></use>
-            </svg>
-          </a>
-        </li>
-
-        <li><a href="#">yt</a></li>
+      <ul class="social-links">
+        <li class="social-link"><a href="#">fb</a></li>
+        <li class="social-link"><a href="#">in</a></li>
+        <li class="social-link"><a href="#">yt</a></li>
       </ul>
       <h3>
         Have the time of your life with our watches: where high-class
@@ -217,7 +222,7 @@
       </h3>
       <a href="tel:+380684439426">+380 (68) 443-94-26</a>
       <div>
-        <ul class="navigation">
+        <ul class="footer-navigation">
           <li class="navigation-item">
             <a href="./index.html" class="navigation-link">Home</a>
           </li>
