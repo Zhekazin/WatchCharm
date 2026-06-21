@@ -112,6 +112,12 @@ a {
   flex-direction: start;
 }
 
+.main-team {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
 .main-title {
   font-family: var(--font-family);
   font-weight: 600;
@@ -121,6 +127,15 @@ a {
   letter-spacing: -0.02em;
   color: var(--main);
   max-width: 597px;
+}
+
+.sub-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.91667;
+  letter-spacing: -0.02em;
+  color: var(--main);
 }
 
 .accent {
@@ -143,6 +158,26 @@ a {
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
   max-width: 480px;
+}
+/*-----ABOUT------------------------------*/
+.text-about {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.section-about {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  padding: 0px 65px;
+  max-width: 1280px;
+  height: 532px;
 }
 
 /*--FOOTER-----------------------------*/
