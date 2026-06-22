@@ -15,6 +15,13 @@ li {
   --cards: #f3f3f3;
 }
 
+/*
+	--main: #0c0c0c;
+	--accent: #3350e9;
+	--background: #fbfbfb;
+	--cards: #f3f3f3;
+*/
+
 *,
 *::before,
 *::after {
@@ -169,6 +176,11 @@ a {
   color: rgba(12, 12, 12, 0.7);
 }
 
+.about-photo {
+  max-width: 530px;
+  height: auto;
+}
+
 .section-about {
   display: flex;
   align-items: flex-start;
@@ -178,6 +190,43 @@ a {
   padding: 0px 65px;
   max-width: 1280px;
   height: 532px;
+}
+
+/*--CATALOG-----------------------------*/
+
+.catalog-section {
+  max-width: 1150px;
+  height: auto;
+  display: flex;
+}
+
+.catalog-item {
+  max-width: 292px;
+  height: auto;
+}
+
+/*--CHOOSE-----------------------------*/
+.choose-section {
+  max-width: 1150px;
+  height: auto;
+  margin: 100px 65px;
+  border-radius: 30px;
+}
+
+.sub-title-choose {
+  max-width: 1150px;
+  height: auto;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 92%;
+  letter-spacing: -0.02em;
+  color: var(--background);
+  background-image: url(../img/BG.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 40px;
 }
 
 /*--FOOTER-----------------------------*/
