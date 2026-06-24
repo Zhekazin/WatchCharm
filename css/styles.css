@@ -179,17 +179,20 @@ a {
 .about-photo {
   max-width: 530px;
   height: auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.sub-title {
 }
 
 .section-about {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
   gap: 40px;
   padding: 0px 65px;
   max-width: 1280px;
   height: 532px;
+  margin-bottom: 100px;
 }
 
 /*--CATALOG-----------------------------*/
@@ -197,7 +200,6 @@ a {
 .catalog-section {
   max-width: 1150px;
   height: auto;
-  display: flex;
 }
 
 .catalog-item {
