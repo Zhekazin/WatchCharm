@@ -5,90 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>WatchCharm</title>
   </head>
   <body>
     <!--HEADER---------------------------------------------------------------------->
     <header class="header-container">
-      <a href="./index.html" class="header-logo">watchcharm</a>
-      <nav class="menu-navigation">
-        <ul class="navigation">
-          <li class="navigation-item">
-            <a href="./index.html" class="navigation-link">Home</a>
+      <div class="header-section">
+        <a href="./index.html" class="header-logo">watchcharm</a>
+        <nav class="menu-navigation">
+          <ul class="navigation">
+            <li class="navigation-item">
+              <a href="./index.html" class="navigation-link">Home</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">About Us</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">Catalog</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">Sale</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">Reviews</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="social-links">
+          <li class="social-link">
+            <a href="#">fb</a>
           </li>
-          <li class="navigation-item">
-            <a href="#" class="navigation-link">About Us</a>
+          <li class="social-link">
+            <a href="#">in</a>
           </li>
-          <li class="navigation-item">
-            <a href="#" class="navigation-link">Catalog</a>
-          </li>
-          <li class="navigation-item">
-            <a href="#" class="navigation-link">Sale</a>
-          </li>
-          <li class="navigation-item">
-            <a href="#" class="navigation-link">Reviews</a>
-          </li>
-          <li class="navigation-item">
-            <a href="#" class="navigation-link">Contact Us</a>
+          <li class="social-link">
+            <a href="#">yt</a>
           </li>
         </ul>
-      </nav>
-      <ul class="social-links">
-        <li class="social-link">
-          <a href="#">fb</a>
-        </li>
-        <li class="social-link">
-          <a href="#">in</a>
-        </li>
-        <li class="social-link">
-          <a href="#">yt</a>
-        </li>
-      </ul>
+      </div>
     </header>
-    <!--MAIN--------------------------------------------------------------------------->
+    <!--HERO--------------------------------------------------------------------------->
     <main>
-      <section class="main-section">
-        <div>
-          <h1 class="main-title">
-            Welcome to our <span class="accent">collection</span> of premium
-            watches
-          </h1>
-          <p class="text">
-            Our watches are not just timepieces, but also an expression of your
-            personality and lifestyle. From classic designs to modern ones, we
-            have a watch to suit every taste and occasion.
-          </p>
-        </div>
-        <div class="main-team">
-          <img src="./img/Ellipse21.png" alt="masha" width="60" height="60" />
-          <img src="./img/Ellipse22.png" alt="misha" width="60" height="60" />
-          <img src="./img/Ellipse23.png" alt="maria" width="60" height="60" />
-
-          <a href="">Scroll down</a>
-        </div>
-
+      <section class="hero-section">
+        <container class="text-photo">
+          <div class="hero-text-box">
+            <h1 class="main-title">
+              Welcome to our <span class="accent">collection</span> of premium
+              watches
+            </h1>
+            <p class="hero-text">
+              Our watches are not just timepieces, but also an expression of
+              your personality and lifestyle. From classic designs to modern
+              ones, we have a watch to suit every taste and occasion.
+            </p>
+          </div>
+          <div class="hero-team">
+            <img src="./img/Ellipse21.png" alt="masha" width="60" height="60" />
+            <img src="./img/Ellipse22.png" alt="misha" width="60" height="60" />
+            <img src="./img/Ellipse23.png" alt="maria" width="60" height="60" />
+            <a href="#">Scroll down</a>
+          </div>
+        </container>
         <img src="./img/Rectangle10.png" alt="black-watch" class="hero-photo" />
       </section>
 
       <!--About Us---------------------------------------------------------------->
 
       <section class="section-about">
-        <h2 class="sub-title">About Us</h2>
-        <div>
-          <p class="text-about">
-            Welcome to our premium watch collection, where luxury and style meet
-            functionality and precision. Our selection of timepieces embodies
-            the very best in Swiss craftsmanship and engineering, ensuring that
-            you'll always have a reliable and stylish accessory on your wrist.
-          </p>
-          <p class="text-about">
-            At our premium watch collection, we believe that a watch is more
-            than just a timekeeping device – it's a statement piece that
-            reflects your personality and style. So why settle for anything less
-            than the best?
-          </p>
+        <div class="block-about-left">
+          <h2 class="about-sub-title">About Us</h2>
+          <div class="text-about-block">
+            <p class="text-about">
+              Welcome to our premium watch collection, where luxury and style
+              meet functionality and precision. Our selection of timepieces
+              embodies the very best in Swiss craftsmanship and engineering,
+              ensuring that you'll always have a reliable and stylish accessory
+              on your wrist.
+            </p>
+            <p class="text-about">
+              At our premium watch collection, we believe that a watch is more
+              than just a timekeeping device – it's a statement piece that
+              reflects your personality and style. So why settle for anything
+              less than the best?
+            </p>
+          </div>
+          <button type="button" class="about-button">View catalog</button>
         </div>
-        <button type="button">View catalog</button>
+
         <div class="image-about">
           <img src="./img/Rectangle11.png" alt="watch" class="about-photo" />
         </div>
@@ -96,40 +103,42 @@
 
       <!--Catalog--------------------------------------------------------------->
       <section class="catalog-section">
-        <h2 class="sub-title">Catalog</h2>
-        <ul>
-          <li class="catalog-item">
-            <img src="./img/catalog/w1.png" alt="delta" />
-            <p>Garmin Fenix 7X Pro Sapphire Solar</p>
-            <p>€500</p>
-          </li>
-          <li class="catalog-item">
-            <img src="./img/catalog/sale2.png" alt="Garmin Fenix " />
-            <p>Garmin Fenix 7X Pro Sapphire Solar</p>
-            <p>€500</p>
-          </li>
-          <li class="catalog-item">
-            <img src="./img/catalog/sale3.png" alt="maro" />
-            <p>Garmin Marq Athlete</p>
-            <p>€450</p>
-          </li>
-          <li class="catalog-item">
-            <img src="./img/catalog/sale4.png" alt="Garmin" />
-            <p>Garmin Descent MK1</p>
-            <p>€680</p>
-          </li>
+        <h2 class="catalog-title">Catalog</h2>
+        <container class="cards">
+          <ul>
+            <li class="catalog-item">
+              <img src="./img/catalog/w1.png" alt="delta" />
+              <p>Garmin Fenix 7X Pro Sapphire Solar</p>
+              <p>€500</p>
+            </li>
+            <li class="catalog-item">
+              <img src="./img/catalog/sale2.png" alt="Garmin Fenix " />
+              <p>Garmin Fenix 7X Pro Sapphire Solar</p>
+              <p>€500</p>
+            </li>
+            <li class="catalog-item">
+              <img src="./img/catalog/sale3.png" alt="maro" />
+              <p>Garmin Marq Athlete</p>
+              <p>€450</p>
+            </li>
+            <li class="catalog-item">
+              <img src="./img/catalog/sale4.png" alt="Garmin" />
+              <p>Garmin Descent MK1</p>
+              <p>€680</p>
+            </li>
 
-          <li class="catalog-item">
-            <img src="./img/catalog/sale5.png" alt="Garmin Fenix 6" />
-            <p>Garmin Fenix 6 Pro Solar</p>
-            <p>€400</p>
-          </li>
-          <li class="catalog-item">
-            <img src="./img/catalog/sale6.png" alt="Tube Watch" />
-            <p>Tube Watch S42 Date Steel With Black Case</p>
-            <p>€395</p>
-          </li>
-        </ul>
+            <li class="catalog-item">
+              <img src="./img/catalog/sale5.png" alt="Garmin Fenix 6" />
+              <p>Garmin Fenix 6 Pro Solar</p>
+              <p>€400</p>
+            </li>
+            <li class="catalog-item">
+              <img src="./img/catalog/sale6.png" alt="Tube Watch" />
+              <p>Tube Watch S42 Date Steel With Black Case</p>
+              <p>€395</p>
+            </li>
+          </ul>
+        </container>
       </section>
 
       <!--CHOOSE--------------------------------------------------------------->
@@ -219,7 +228,7 @@
           <textarea name="comment" id="comment">Comment</textarea>
         </form>
         <button>Send</button>
-        <img src="./img/Rectangle11.png" alt="watsh" width="530" height="556" />
+        <img src="./img/Rectangle12.png" alt="watsh" width="530" height="556" />
       </section>
     </main>
     <!--FOOTER------------------------------------------------------------------------------->

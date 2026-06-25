@@ -1,0 +1,34 @@
+.main-section {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 65px 80px;
+  max-width: 1150px;
+  flex-direction: start;
+}
+
+.main-team {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.main-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 72px;
+  margin-bottom: 20px;
+  line-height: 0.87;
+  letter-spacing: -0.02em;
+  color: var(--main);
+  max-width: 597px;
+}
+
+.hero-photo {
+  border-radius: 50px;
+  max-width: 1150px;
+  height: auto;
+  object-fit: cover;
+  display: flex;
+}

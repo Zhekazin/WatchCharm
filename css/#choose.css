@@ -1,0 +1,22 @@
+.choose-section {
+  max-width: 1150px;
+  height: auto;
+  margin: 100px 65px;
+  border-radius: 30px;
+}
+
+.sub-title-choose {
+  max-width: 1150px;
+  height: auto;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 92%;
+  letter-spacing: -0.02em;
+  color: var(--background);
+  background-image: url(../img/BG.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 40px;
+}

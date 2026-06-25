@@ -1,0 +1,27 @@
+.text-about {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.about-photo {
+  max-width: 530px;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.sub-title {
+}
+
+.section-about {
+  display: flex;
+  gap: 40px;
+  padding: 0px 65px;
+  max-width: 1280px;
+  height: 532px;
+  margin-bottom: 100px;
+}
