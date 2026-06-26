@@ -158,6 +158,7 @@ a {
   width: 140px;
   height: 60px;
 }
+
 .hero-photo {
   min-width: 1150px;
   margin-bottom: 100px;
@@ -289,6 +290,8 @@ a {
   background: #f3f3f3;
   padding: 24px;
 }
+
+/*width: calc((100% - 46px) / 3);*/
 
 .card-title {
   display: flex;
