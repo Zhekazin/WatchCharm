@@ -160,6 +160,7 @@ a {
 }
 
 .hero-photo {
+  display: inline-block;
   min-width: 1150px;
   margin-bottom: 100px;
 }
@@ -798,8 +799,9 @@ a {
   flex-direction: column;
   gap: 10px;
   border-radius: 30px;
+  border-radius: 30px;
   padding: 40px 40px 28px;
-  max-width: 1216px;
+  width: 1216px;
   height: 400px;
   background: #0c0c0c;
 }
@@ -812,11 +814,27 @@ a {
   gap: 126px;
   max-width: 1136px;
 }
+
 .foter-top-section {
   max-width: 1136px;
   height: 96px;
 }
+
 .footer-logo {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 4px;
+  width: 112px;
+  height: 24px;
+}
+
+.footer-logo-box {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
