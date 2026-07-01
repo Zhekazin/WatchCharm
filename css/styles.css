@@ -324,11 +324,18 @@ a {
 
 .choose-section {
   border-radius: 30px;
-  width: 1150px;
+  max-width: 1150px;
   height: 298px;
   margin-left: 65px;
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+.choose-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .sub-title-choose {
@@ -352,8 +359,8 @@ a {
   height: 48px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
-  text-align: center;
+  line-height: 1.29;
+
   color: #fbfbfb;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
@@ -799,9 +806,8 @@ a {
   flex-direction: column;
   gap: 10px;
   border-radius: 30px;
-  border-radius: 30px;
   padding: 40px 40px 28px;
-  width: 1216px;
+  max-width: 1216px;
   height: 400px;
   background: #0c0c0c;
 }
@@ -851,6 +857,7 @@ a {
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
+  max-width: 523px;
 }
 
 .footer-contact {
@@ -873,7 +880,6 @@ a {
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-
   height: 18px;
 }
 .footer-privacy {
@@ -882,7 +888,16 @@ a {
   line-height: 1.28571;
   color: #fbfbfb;
 }
-
+.footer-navigation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  max-width: 505px;
+  height: 18px;
+  margin-left: 40px;
+}
 .footer-navigation-link {
   font-weight: 500;
   font-size: 14px;
@@ -897,6 +912,5 @@ a {
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-
   height: 18px;
 }
