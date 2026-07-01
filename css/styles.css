@@ -43,7 +43,6 @@ h6 {
 }
 
 img {
-  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -155,8 +154,6 @@ a {
   justify-content: flex-start;
   flex-direction: column;
   gap: 189px;
-  width: 140px;
-  height: 60px;
 }
 
 .hero-photo {
